@@ -1,75 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap');
-
 :root {
-    --font-josefin-sans: 'Josefin Sans', sans-serif;
-    --color-background: #56c0e0;
-    --color-text: white;
+--font-josefin-sans: 'Josefin Sans', sans-serif;
+--color-background: #56c0e0;
+--color-text: white;
 }
 
 html {
-    scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-
 body {
-    font-family: var(--font-josefin-sans);
-    background-color: black;
-    color: var(--color-text);
-    
+font-family: var(--font-josefin-sans);
+background-color: black;
+color: var(--color-text);
 }
-
 .seccion {
-    padding: 80px 0;
-    margin: 0 auto 80px;
-    /* overflow: hidden; */
+padding: 80px 0;
+margin: 0 auto 80px;
+/* overflow: hidden; */
 }
-
+.navbar-dark,.bg-white{
+background-color: var(--color-background);
+}
 /* header */
 .header {
-    width: 100%;
-    background-size: cover;
-    position: relative;
+width: 100%;
+background-size: cover;
+position: relative;
 }
-
 .carousel-item {
-    max-height: 680px;
+max-height: 680px;
 }
-
 /* textos */
 .quienes-somos-texto, .destacados-texto, .contacto-texto {
-    font-family: var(--font-josefin-sans);
+font-family: var(--font-josefin-sans);
 }
-
+.destacados-texto{
+cursor: pointer;
+}
 .iconos{
-    background-color: var(--color-background);
-    padding-block: 5px;
+background-color: var(--color-background);
+padding-block: 5px;
 }
-
 .text-justify {
-    text-align: justify;
+text-align: justify;
 }
-
 .card-body{
 background-color: var(--color-background);
 }
-
 .card-img-top {
-    height: 40%;
+height: 40%;
 }
-
 .btn{
-    background-color: var(--color-background);
-    color: var(--color-text)
+background-color: var(--color-background);
+color: var(--color-text)
 }
-
-.final {
-    background-color: var(--color-background);
-    padding: 40px 0;
-    text-align: center;
-    color: var(--color-text);
+.footer {
+background-color: var(--color-background);
+padding: 40px 0;
+text-align: center;
+color: var(--color-text);
 }
