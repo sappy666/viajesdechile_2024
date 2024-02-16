@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes de Chile</title>
+    <link rel="shortcut icon" href="./assets/img/airplane-engines.svg">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./assets/css/styles.css">  -->
+</head>
+<body>
+    <div class="header">
+        <!--BARRA DE NAVEGACION-->
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Viajes de Chile</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destacados">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--CARRUSEL DE IMAGENES HEADER-->
+        <section class="carrusel-header">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/slider1.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/slider2.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/slider3.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/slider4.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/slider5.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <div class="wave" style="height: 100px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 150%;">
+                <path d="M0.00,49.85 C150.00,149.60 349.20,-49.85 500.00,49.85 L500.00,149.60 L0.00,149.60 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path>
+            </svg>
+        </div>  
+    </div>
+    <main>
+        <!--SECCION QUIENES SOMOS-->    
+        <section id="quienes-somos" class="container seccion d-none d-md-block">
+            <h2 class="text-center quienes-somos-texto">Quienes somos</h2>
+            <hr class="linea divisoria">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 col-md-4 center gx-5">
+                        <div class="d-flex justify-content-center my-1">
+                            <img src="./assets/img/viajar.png" height="30px" class="">
+                        </div>
+                        <p class="text-justify">
+                            Te brindamos un servicio integral para que armes tu viaje como quieras y donde quieras, con el asesoramiento de un Experto cuando lo necesites.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 gx-5 ">
+                        <p class="text-justify">
+                            Ponemos el mundo a tu alcance: accedes al mejor precio garantizado en vuelos, hoteles y paquetes; ofertas únicas y múltiples métodos de pago. Si lo prefieres, un Experto puede buscarte las mejores opciones para tu viaje.
+                        </p>
+                        <div class="d-flex justify-content-center my-1">
+                            <img src="./assets/img/ahorros.png" height="40px" class=""> 
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 gx-5">
+                        <div class="d-flex justify-content-center my-1">
+                            <img src="./assets/img/centro-de-llamadas.png" height="30px" class="">
+                        </div>
+                        <p class="text-justify">
+                            Te conectamos con un Experto cuando quieras para que te asista 24/7 y viajes con tranquilidad. Nos avalan más de 70 años experiencia y la confianza de nuestros viajeros.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SECCION DESTACADOS-->
+        <section id="destacados" class="container seccion">
+            <div class="d-flex destacados-fade"> 
+                <h2 class="text-center destacados-texto">Destacados</h2>
+                <img src="./assets/img/flecha-hacia-abajo-para-navegar.png" width="16" height="16" class="ms-auto">
+            </div>
+            <hr class="linea divisoria">
+            <!--cart
+
+as-->
+            <div class="row row-cols-1 row-cols-md-4 g-4 py-5 cartas">
+                <div class="col">
+                    <div class="card h-100 mx-5 mx-md-0">
+                        <img src="./assets/img/slider1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Plan Solo</h5>
+                            <p class="card-text">
+                                Increíble plan de viaje. Vive una experiencia única viajando por los mejores destinos de Chile. No esperes más para vivir tu sueño.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 mx-5 mx-md-0">
+                        <img src="./assets/img/slider2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Plan Duo</h5>
+                            <p class="card-text">
+                                Increíble plan de viaje. Vive una experiencia única viajando por los mejores destinos de Chile. No esperes más para vivir tu sueño.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 mx-5 mx-md-0">
+                        <img src="./assets/img/slider3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Plan Trío</h5>
+                            <p class="card-text">
+                                Increíble plan de viaje. Vive una experiencia única viajando por los mejores destinos de Chile. No esperes más para vivir tu sueño.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 mx-5 mx-md-0">
+                        <img src="./assets/img/slider4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Plan Familiar</h5>
+                            <p class="card-text">
+                                Increíble plan de viaje. Vive una experiencia única viajando por los mejores destinos de Chile. No esperes más para vivir tu sueño.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SECCION CONTACTO-->
+        <section id="contacto" class="container seccion">
+            <h2 class="text-center contacto-texto">Contacto</h2>
+            <hr class="linea divisoria">
+            <div class="mb-3 mt-5">
+                <!--Nombre-->
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <!--Asunto-->
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <!--Mensaje-->
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+            <div class="col-auto">
+                <!--Boton-->
+                <button type="submit" class="btn btn-outline-dark mb-3 " data-bs-toggle="tooltip" data-bs-placement="top" title="Aprieta enviar para que nos comuniquemos contigo">Enviar</button>
+            </div>      
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid final py-5">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <h2>Viajes Chile</h2>
+                </div>
+                <div class="contenedor-iconos col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github mx-1" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin mx-1" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2
+
+-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter mx-1" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook mx-1" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="assets\js\index.js"></script>
+</body>
+</html>
