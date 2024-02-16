@@ -2,8 +2,7 @@
 
 :root {
     --font-josefin-sans: 'Josefin Sans', sans-serif;
-    --font-yeseva-one: 'Yeseva One', cursive;
-    --color-background: #3a3d6c;
+    --color-background: #56c0e0;
     --color-text: white;
 }
 
@@ -19,6 +18,9 @@ html {
 
 body {
     font-family: var(--font-josefin-sans);
+    background-color: black;
+    color: var(--color-text);
+    
 }
 
 .seccion {
@@ -34,27 +36,35 @@ body {
     position: relative;
 }
 
-.wave {
-    position: absolute;
-    bottom: -1px;
-    width: 100%;
-}
-
 .carousel-item {
     max-height: 680px;
 }
 
 /* textos */
 .quienes-somos-texto, .destacados-texto, .contacto-texto {
-    font-family: var(--font-yeseva-one);
+    font-family: var(--font-josefin-sans);
+}
+
+.iconos{
+    background-color: var(--color-background);
+    padding-block: 5px;
 }
 
 .text-justify {
     text-align: justify;
 }
 
+.card-body{
+background-color: var(--color-background);
+}
+
 .card-img-top {
     height: 40%;
+}
+
+.btn{
+    background-color: var(--color-background);
+    color: var(--color-text)
 }
 
 .final {
